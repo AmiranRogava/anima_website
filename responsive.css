@@ -1,0 +1,381 @@
+@media screen and (max-width:600px) {
+
+
+    .hidden {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu > div > div {
+        display: none;
+    }
+
+    .intro {
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .intro > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .intro h1 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 49.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .intro p {
+
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+
+    }
+
+    .intro div > img {
+        width: 100%;
+    }
+
+    .intro > div > div > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+
+    }
+
+    .intro button:nth-child(2) {
+        display: none;
+    }
+
+    .companies {
+        padding: 0 30px;
+    }
+
+    .companies div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px;
+        padding: 30px 0;
+        width: 100%;
+
+    }
+
+    .companies div img {
+        width: 70px;
+    }
+
+    .features {
+        padding: 60px 30px;
+    }
+
+    .features > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .features > div > div {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin: 0 auto;
+    }
+
+    .features div h2 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 49.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .features div p {
+
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .stats {
+        padding: 60px 0;
+        width: 100%;
+    }
+
+    .stats p {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .stats > div {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 30px;
+        margin-top: 0;
+        padding: 0 30px;
+
+    }
+
+    .stats > div > div {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .stats > div > div > div {
+        width: 140px;
+        margin: 0 auto;
+        margin-top: 20px
+    }
+
+    .offer {
+        padding: 60px 30px;
+        width: 100%;
+
+    }
+
+    .offer > div {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer h2 {
+        width: 100%;
+
+        text-align: center;
+
+
+    }
+
+    .offer p {
+        width: 100%;
+
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .offer > div > div {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .review {
+        padding: 60px 30px;
+    }
+
+    .review > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review > div > div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+
+    }
+
+    .plan {
+        padding: 0;
+    }
+
+    .plan > div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 60px 30px;
+    }
+
+    .plan > div > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .plan > div > div div,
+    .plan > div > div div button {
+        width: 100%;
+    }
+
+    .team {
+        padding: 60px 30px;
+
+    }
+
+    .team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team p {
+        width: 100%;
+
+    }
+
+    .team > div > div {
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .team div img,
+    .team div {
+        width: 100% !important;
+    }
+
+    .offer_2 {
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .offer_2 > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .offer_2 h2 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 49.4px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .offer_2 p {
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .offer_2 div > img {
+        width: 100%;
+    }
+
+    .offer_2 > div > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 30px;
+    }
+
+    .contact {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contact > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .contact > div > div {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact > div > div > div {
+        width: fit-content;
+    }
+
+    .contact form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+
+    .bottom {
+        display: flex;
+        align-items: left;
+
+        padding: 24px 30px;
+    }
+
+    .bottom > div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: left;
+
+        padding: 0;
+
+    }
+
+    .bottom span {
+        margin-top: 20px;
+
+    }
+
+
+
+
+}
